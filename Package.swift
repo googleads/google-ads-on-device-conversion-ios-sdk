@@ -19,7 +19,7 @@ import PackageDescription
 
 let package = Package(
   name: "GoogleAdsOnDeviceConversion",
-  platforms: [.iOS(.v10)],
+  platforms: [.iOS(.v12), .macOS(.v10_15), .tvOS(.v13), .watchOS(.v7)],
   products: [
     .library(
       name: "GoogleAdsOnDeviceConversion",
