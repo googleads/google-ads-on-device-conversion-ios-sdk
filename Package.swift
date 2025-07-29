@@ -57,8 +57,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "GoogleAdsOnDeviceConversion",
-      url: "https://dl.google.com/firebase/ios/appads/2.1.0/GoogleAdsOnDeviceConversion.zip",
-      checksum: "bb7f0d521c5eea9bcc16a93dcdb33099b1b873956af342f802e1dcf27cdced4f"
+      url: "https://dl.google.com/firebase/ios/appads/2.2.0/GoogleAdsOnDeviceConversion.zip",
+      checksum: "95052dc8590cd2df53e169a515e06a6ae87fa0a570d31e23cf79252e21975a18"
     ),
   ],
   cLanguageStandard: .c99,
