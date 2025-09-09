@@ -46,6 +46,7 @@ let package = Package(
           name: "GoogleAdsOnDeviceConversion",
           condition: .when(platforms: [.iOS])
         ),
+        .product(name: "GULEnvironment", package: "GoogleUtilities"),
         .product(name: "GULLogger", package: "GoogleUtilities"),
         .product(name: "GULNetwork", package: "GoogleUtilities"),
         .product(name: "nanopb", package: "nanopb"),
@@ -57,8 +58,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "GoogleAdsOnDeviceConversion",
-      url: "https://dl.google.com/firebase/ios/appads/2.3.0/GoogleAdsOnDeviceConversion.zip",
-      checksum: "f965c5522012faca6f5d240b9aa8653b2e5f09b6bda7f7577f97af78e500d54c"
+      url: "https://dl.google.com/firebase/ios/appads/3.0.0/GoogleAdsOnDeviceConversion.zip",
+      checksum: "34835a593647f8c9cf701ba277c8ac878c5c382cbdd4454d3651011ad331b548"
     ),
   ],
   cLanguageStandard: .c99,

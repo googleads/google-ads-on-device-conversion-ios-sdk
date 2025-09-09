@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'GoogleAdsOnDeviceConversion'
-    s.version          = '2.3.0'
+    s.version          = '3.0.0'
     s.summary          = <<-SUMMARY
     On device conversion measurement plugin for FirebaseAnalytics and Google's
     App Attribution Partner (AAP) SDKs.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     s.authors          = 'Google, Inc.'
 
     s.source           = {
-        :http => 'https://dl.google.com/firebase/ios/appads/2.3.0/GoogleAdsOnDeviceConversion-2.3.0.tar.gz'
+        :http => 'https://dl.google.com/firebase/ios/appads/3.0.0/GoogleAdsOnDeviceConversion-3.0.0.tar.gz'
     }
 
     s.cocoapods_version = '>= 1.12.0'
@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
 
     s.libraries  = 'c++'
 
+    s.dependency 'GoogleUtilities/Environment', '~> 8.1'
     s.dependency 'GoogleUtilities/Logger', '~> 8.1'
     s.dependency 'GoogleUtilities/Network', '~> 8.1'
     s.dependency 'nanopb', '~> 3.30910.0'
