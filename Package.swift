@@ -19,7 +19,7 @@ import PackageDescription
 
 let package = Package(
   name: "GoogleAdsOnDeviceConversion",
-  platforms: [.iOS(.v12), .macOS(.v10_15), .tvOS(.v13), .watchOS(.v7)],
+  platforms: [.iOS(.v15), .macOS(.v10_15), .tvOS(.v15), .watchOS(.v7)],
   products: [
     .library(
       name: "GoogleAdsOnDeviceConversion",
@@ -58,8 +58,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "GoogleAdsOnDeviceConversion",
-      url: "https://dl.google.com/firebase/ios/appads/3.4.0/GoogleAdsOnDeviceConversion.zip",
-      checksum: "e6b32fb97025e1ac4d89273bd8ae62989b65cf07ea5ba2ef700f6984b8d7162d"
+      url: "https://dl.google.com/firebase/ios/appads/3.5.0/GoogleAdsOnDeviceConversion.zip",
+      checksum: "b4614a5fa00d3e6bfad6548e849378b868944128ed878994a8e6384306d0fe19"
     ),
   ],
   cLanguageStandard: .c99,
