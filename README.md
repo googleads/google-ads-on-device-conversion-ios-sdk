@@ -12,6 +12,9 @@ When manually installing both the Google Analytics for Firebase (GA4F) SDK and t
 
 | GA4F SDK Version | GoogleAdsOnDeviceConversion SDK Version |
 | :--- | :--- |
+| 13.2.0 | 3.8.0 |
+| 13.1.0 | 3.7.0 |
+| 13.0.0 | 3.7.0 |
 | 12.19.0 | 3.7.0 |
 | 12.18.0 | 3.6.1 |
 | 12.17.0 | 3.6.1 |
